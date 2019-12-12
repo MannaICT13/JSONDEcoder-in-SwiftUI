@@ -8,6 +8,19 @@
 
 import SwiftUI
 
+struct JsonStruct {
+    
+    
+    let name : String
+    let city : String
+    let phoneNumber : Int?
+    
+}
+
+
+
+
+
 struct ContentView: View {
     var body: some View {
         Text("Hello World")
