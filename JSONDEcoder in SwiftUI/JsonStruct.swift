@@ -9,7 +9,7 @@
 import Foundation
 import  SwiftUI
 
-struct JsonStruct {
+struct JsonStruct : Decodable  {
     
     
     let name : String

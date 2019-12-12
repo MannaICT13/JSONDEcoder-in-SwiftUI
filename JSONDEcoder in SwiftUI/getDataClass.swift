@@ -25,22 +25,31 @@ class getDataClass : ObservableObject{
 
         },
         {
-             "name" : "Manna",
-             "city" : "Rangpur",
-             "phoneNumber" : 02394794
+             "name" : "Munna",
+             "city" : "Dhaka",
+             "phoneNumber" : 53453
 
         },
         {
-            "name" : "Manna",
-            "city" : "Rangpur",
-            "phoneNumber" : 02394794
+            "name" : "Shaon",
+            "city" : "Rajshahi",
+            "phoneNumber" : 1255675
 
         }
 
 ]
 """.data(using: .utf8)!
         
-        
+        do{
+            self.jsonData = try JSONDecoder().decode([JsonStruct].self, from: json)
+            
+            for data in self.jsonData{
+                print(data.name , data.city)
+            }
+            
+        }catch{
+            print(error.localizedDescription)
+        }
         
         
         
