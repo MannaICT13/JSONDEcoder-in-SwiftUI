@@ -17,34 +17,34 @@ class getDataClass : ObservableObject{
     init() {
         
         let json = """
-[
-        {
-             "name" : "Manna",
-             "city" : "Rangpur",
-             "phoneNumber" : 02394794
-
+        [{
+            "name": "Durian",
+            "points": 600,
+            "description": "A fruit with a distinctive scent."
         },
         {
-             "name" : "Munna",
-             "city" : "Dhaka",
-             "phoneNumber" : 53453
-
+        "name": "Durian",
+        "points": 600,
+        "description": "A fruit with a distinctive scent."
         },
         {
-            "name" : "Shaon",
-            "city" : "Rajshahi",
-            "phoneNumber" : 1255675
-
+        "name": "Durian",
+        "points": 600,
+        "description": "A fruit with a distinctive scent."
+        },
+        {
+        "name": "Durian",
+        "points": 600,
+        "description": "A fruit with a distinctive scent."
         }
-
-]
-""".data(using: .utf8)!
+        ]
+        """.data(using: .utf8)!
         
         do{
             self.jsonData = try JSONDecoder().decode([JsonStruct].self, from: json)
             
             for data in self.jsonData{
-                print(data.name , data.city)
+                print(data.name , data.description)
             }
             
         }catch{

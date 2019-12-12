@@ -9,11 +9,11 @@
 import Foundation
 import  SwiftUI
 
-struct JsonStruct : Decodable  {
+struct JsonStruct : Decodable,Identifiable {
     
-    
+    let id = UUID()
     let name : String
-    let city : String
-    let phoneNumber : Int?
+    let description : String
+    let points : Int?
     
 }

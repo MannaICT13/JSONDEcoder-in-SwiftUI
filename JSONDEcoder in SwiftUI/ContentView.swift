@@ -11,8 +11,26 @@ import SwiftUI
 
 
 struct ContentView: View {
+    
+    @ObservedObject var allData = getDataClass()
+    
+    
     var body: some View {
-        Text("Hello World")
+        
+  
+            
+        List(self.allData.jsonData){ value in
+         
+            VStack{
+              
+                 Text(value.name)
+                 Text("\(value.points!)")
+                 Text(value.description)
+            }
+           
+            
+        }
+    
     }
 }
 
