@@ -8,17 +8,6 @@
 
 import SwiftUI
 
-struct JsonStruct {
-    
-    
-    let name : String
-    let city : String
-    let phoneNumber : Int?
-    
-}
-
-
-
 
 
 struct ContentView: View {
