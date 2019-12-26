@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2A6ECA6C23A2490D000786B3 /* JSONDEcoder in SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JSONDEcoder in SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A6ECA6C23A2490D000786B3 /* JSONDecoder in SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JSONDecoder in SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A6ECA6F23A2490D000786B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A6ECA7123A2490D000786B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2A6ECA7323A2490D000786B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		2A6ECA6D23A2490D000786B3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2A6ECA6C23A2490D000786B3 /* JSONDEcoder in SwiftUI.app */,
+				2A6ECA6C23A2490D000786B3 /* JSONDecoder in SwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,7 +98,7 @@
 			);
 			name = "JSONDEcoder in SwiftUI";
 			productName = "JSONDEcoder in SwiftUI";
-			productReference = 2A6ECA6C23A2490D000786B3 /* JSONDEcoder in SwiftUI.app */;
+			productReference = 2A6ECA6C23A2490D000786B3 /* JSONDecoder in SwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -302,7 +302,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ict.manna.JSONDEcoder-in-SwiftUI";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "JSONDecoder in SwiftUI";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -322,7 +322,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ict.manna.JSONDEcoder-in-SwiftUI";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "JSONDecoder in SwiftUI";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
